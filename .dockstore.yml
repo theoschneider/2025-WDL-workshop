@@ -1,8 +1,9 @@
 version: 1.2
 workflows:
   - subclass: WDL
-  - primaryDescriptorPath: /wdl-101-bam.wdl
+  primaryDescriptorPath: /wdl-101-bam.wdl
   # testParameterFiles:
   # - /optional.json
-  - authors:
+  authors:
     - orcid: 0000-0003-4896-1858
+
